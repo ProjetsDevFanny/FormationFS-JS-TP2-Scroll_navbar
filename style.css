@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mystery+Quest&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  /* Chacun des éléments de la page ont un padding de 5px ! et on ne pourra pas le changer ! */
+  padding: 0px;
+  margin: 0px;
+  /* Pour éviter que les boîtes partent dans tous les sens: */
+  box-sizing: border-box;
+  /* On met la font dans le * : et sans-serif par défaut si ca ne marche pas. */
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background: url(./assets/bg.jpg) center/cover;
+  min-height: 200vh;
+   /* overflow: hidden; */
+}
+
+/* menu de navigation */
+
+nav {
+  padding: 12px 20px;
+  background: rgb(27, 26, 26);
+  color: rgb(255, 204, 0);
+  font-size: 1.2rem;
+  text-shadow: 0px 0px 8px rgba(255, 255, 255, 1);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+nav h3 {
+  font-size: 2rem;
+}
+
+nav ul {
+  display: grid;
+  justify-items: end;
+  grid-template-columns: repeat(3, 1fr);
+}
