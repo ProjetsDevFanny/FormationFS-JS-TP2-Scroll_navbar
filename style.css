@@ -36,6 +36,7 @@ nav {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   transition: 0.5s ease;
+  /* transition: top 0.3s ease-in-out; */
 }
 
 nav h3 {
